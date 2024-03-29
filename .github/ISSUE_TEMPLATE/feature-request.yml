@@ -19,7 +19,6 @@ body:
       required: true
   - type: textarea
     id: alternative-solutions
-    Tip: what shis
     attributes:
       label: Are there any alternatives solutions you have considered?
   - type: markdown
