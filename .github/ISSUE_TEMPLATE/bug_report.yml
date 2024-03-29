@@ -22,7 +22,5 @@ body:
     validations:
       required: true
   - type: markdown
-    id: terms
     attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](CODE_OF_CONDUCT.md)
+      value: By submitting this issue, you agree to follow our [Code of Conduct](CODE_OF_CONDUCT.md)
