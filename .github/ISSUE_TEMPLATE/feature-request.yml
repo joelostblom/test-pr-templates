@@ -20,7 +20,7 @@ body:
   - type: textarea
     id: alternative-solutions
     attributes:
-      label: Have you considered any alternatives approaches?
+      label: Have you considered any alternative approaches?
   - type: markdown
     attributes:
       value: By submitting this issue, you agree to follow our [Code of Conduct](../../CODE_OF_CONDUCT.md).
