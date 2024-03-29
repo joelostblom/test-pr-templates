@@ -7,18 +7,18 @@ body:
       value: |
         Thanks for taking the time to fill out this bug report!
         
-        Note that since Altair is a Python wrapper around the Vega-Lite visualization grammar, [most bugs should be reported directly to Vega-Lite](https://github.com/vega/vega-lite/issues). You can click the `...` Action Button of your Altair chart and "Open in Vega Editor" to create a reproducible Vega-Lite example and see if you get the same error in the Vega Editor.
+        Note that since Altair is a Python wrapper around the Vega-Lite visualization grammar, [most bugs should be reported directly to Vega-Lite](https://github.com/vega/vega-lite/issues). You can click the Action Button (`...`) of your Altair chart and "Open in Vega Editor" to see if you get the same error in the Vega Editor.
         
-        Please follow these steps to file a bug report that is easy for us to follow up on:
-        
-          - Search for duplicate issues.
-          - Use the latest version of Altair.
-          - Describe how to reproduce the bug and include the full code and data to reproduce it, ideally using a sample data set from `vega_datasets`.
+        If you can't reproduce the bug in the Vega editor, please follow these steps to file a bug report that is easy for us to follow up on:
+
+          1. Use [the latest version of Altair](https://github.com/altair-viz/altair/releases).
+          2. Search for duplicate issues.
+          3. Describe how to reproduce the bug and include the full code and data to reproduce it. Use a toy data set, e.g. from `vega_datasets`.
   - type: textarea
     id: what-happened
     attributes:
-      label: Describe what happened
-      placeholder: Describe how to reproduce the bug and what you were expecting would happen.
+      label: Describe the bug
+      placeholder: Describe what the issue is and what you think the correct behavior should look like.
     validations:
       required: true
   - type: markdown
