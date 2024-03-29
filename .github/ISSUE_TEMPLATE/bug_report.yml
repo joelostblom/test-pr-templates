@@ -32,6 +32,7 @@ body:
     attributes:
       label: Which version of Altair are you using?
       placeholder: Use `alt.__version__` to find out
+      description: By submitting this issue, you agree to follow our [Code of Conduct](../../CODE_OF_CONDUCT.md).
     validations:
       required: true
   - type: markdown
