@@ -24,15 +24,11 @@ body:
     attributes:
       label: What would you like to happen instead?
       description: Describe the expected/desired behavior.
-    validations:
-      required: true
   - type: input
     id: altair-version
     attributes:
       label: Which version of Altair are you using?
       description: Use `alt.__version__` to find out
-    validations:
-      required: true
   - type: markdown
     attributes:
       value: By submitting this issue, you agree to follow our [Code of Conduct](../../CODE_OF_CONDUCT.md).
