@@ -21,7 +21,7 @@ body:
       value: "A bug happened!"
     validations:
       required: true
-  - type: Markdown
+  - type: markdown
     id: terms
     attributes:
       label: Code of Conduct
