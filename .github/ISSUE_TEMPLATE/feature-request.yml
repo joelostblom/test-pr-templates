@@ -13,14 +13,14 @@ body:
   - type: textarea
     id: what-happened
     attributes:
-      label: What is your suggestions?
+      label: What is your suggestion?
       description: Describe the feature's goal, motivating use cases, and its expected behavior.
     validations:
       required: true
   - type: textarea
     id: alternative-solutions
     attributes:
-      label: Are there any alternatives solutions you have considered?
+      label: Have you considered any alternatives approaches?
   - type: markdown
     attributes:
       value: By submitting this issue, you agree to follow our [Code of Conduct](../../CODE_OF_CONDUCT.md).
