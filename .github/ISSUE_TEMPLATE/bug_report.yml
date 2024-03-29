@@ -16,7 +16,22 @@ body:
       label: Describe the bug
       placeholder: |
         Describe how to reproduce the bug.
-        Include the full code and data to reproduce it. Use a toy data set, e.g. from `vega_datasets`.
+        Include the full code and data to reproduce it.
+        Use a toy data set, e.g. from `vega_datasets`.
+    validations:
+      required: true
+  - type: textarea
+    id: desired-behavior
+    attributes:
+      label: Describe the desired behavior
+      placeholder: How do you think Altair should behave?
+    validations:
+      required: true
+  - type: input
+    id: altair-version
+    attributes:
+      label: Which version of Altair are you using?
+      placeholder: Type `alt.__version__` to find out
     validations:
       required: true
   - type: markdown
